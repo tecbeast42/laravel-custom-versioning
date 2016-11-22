@@ -1,0 +1,18 @@
+{
+    "name": "tecbeast/laravel-custom-versioning",
+    "description": "A Laravel helper function to use a different path for your versioned files.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "laravel/framework": ">=5.0.0"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/tecbeast42/laravel-custom-versioning"
+        }
+    ],
+    "autoload": {
+        "files": ["src/version.php"]
+    }
+}
