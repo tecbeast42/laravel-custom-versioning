@@ -14,7 +14,7 @@ function version($file)
     }
 
     if (isset($manifest[$file])) {
-        return 'assets/build/' . $manifest[$file];
+        return '/assets/build/' . $manifest[$file];
     }
 
     throw new InvalidArgumentException("File {$file} not defined in asset manifest.");
